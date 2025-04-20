@@ -1,0 +1,51 @@
+.effects .container {
+    width: 1131px;
+    margin-bottom: 6px;
+}
+
+.effects-title {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.effects-wrap {
+    display: flex;
+    gap: 60px;
+}
+
+.amico-icon {
+    flex-shrink: 0;
+}
+
+.effects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.effects-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 16px;
+}
+
+.effects-icon-wrap {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f4f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.effects-subtitle {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.effects-text {
+    line-height: 1.75;
+}

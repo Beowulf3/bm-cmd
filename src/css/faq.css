@@ -1,0 +1,53 @@
+.faq .container {
+    max-width: 920px;
+    margin-bottom: 150px;
+}
+
+.faq-title {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.faq-text {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.details-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.summary-text {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.faq-details {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.faq-summary {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 14px;
+    padding: 16px 0 22px;
+    list-style-type: none;
+}
+
+.faq-summary::before {
+    content: url("/img/plus_circle.png");
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 16px;
+}
+
+.faq-details[open] .faq-summary::before {
+    content: url("/img/minus_circle.png");
+}

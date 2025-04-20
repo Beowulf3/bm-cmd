@@ -1,0 +1,25 @@
+.pricing .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.pricing-title {
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.pricing-text {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.pricing-subtext {
+    font-weight: 500;
+    margin-bottom: 49px;
+}
