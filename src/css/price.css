@@ -1,0 +1,120 @@
+.price {
+    margin-bottom: 100px;
+}
+
+.price .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.price-title {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+
+.price-text {
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.price-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+}
+
+.price-item {
+    width: calc((100% - 144px) / 3);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    color: #22343d;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+
+.price-item:hover {
+    background-color: #02897a;
+    color: #fff;
+}
+
+.price-item:hover .subscribe-price .number {
+    color: #fff;
+}
+
+.price-item:hover .dollar {
+    color: #fff;
+}
+
+.price-item:hover .price-button {
+    color: #02897a;
+    background-color: #fff;
+}
+
+.price-subtitle {
+    font-size: 24px;
+    line-height: 1.666;
+    margin: 32px 0 8px;
+}
+
+.price-item-text {
+    line-height: 2.5;
+}
+
+.subscribe-price {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.number {
+    font-size: 76px;
+    font-weight: 700;
+    line-height: 1.31579;
+    text-align: center;
+    color: #02897a;
+}
+
+.dollar {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #02897a;
+    margin-bottom: 4px;
+    transition: color 250ms ease-in-out;
+}
+
+.per-time {
+    line-height: 1.1875;
+    letter-spacing: 0.01em;
+    color: #afafaf;
+}
+
+.price-item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.price-item-list-text {
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: 0.01em;
+}
+
+.price-button {
+    border-radius: 8px;
+    width: 139px;
+    height: 44px;
+    background-color: #02897a;
+    color: #fff;
+    margin-bottom: 32px;
+    transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
