@@ -1,0 +1,48 @@
+.management .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.management {
+    margin-bottom: 100px;
+}
+
+.icon-management-img {
+    flex-shrink: 0;
+}
+
+.management-text-wrapper {
+    margin: 41px 84px 41px 0;
+    max-width: 486px;
+}
+
+.management-title {
+    max-width: 224px;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.management-title span {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.management-text {
+    line-height: 1.625;
+}
+
+.management-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.management-subtitle {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
