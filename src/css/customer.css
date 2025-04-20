@@ -1,0 +1,16 @@
+.customers .container {
+    max-width: 850px;
+    margin-top: 100px;
+    margin-bottom: 117px;
+}
+
+.customers-title {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.customers-list {
+    display: flex;
+    gap: 64px;
+}
